@@ -23,7 +23,7 @@ p {
 }
 
 li {
-    list-style: none;
+    list-style-type: none;
 }
 
 .flex {
@@ -40,11 +40,11 @@ li {
     margin: 0 auto;
 }
 
-.text--purple {
+.text-purple {
     color: #6030b1;
 }
 
-/* NAVIGATION */
+/* NAVIGATION BAR */
 
 nav {
     height: 100px;
@@ -72,11 +72,11 @@ nav {
     padding: 8px 20px;
     border-radius: 50px;
     color: white;
-    transition: all 300ms ease;
 }
 
 .nav__link--anchor-primary:hover {
-    background: #5d3eff;
+    background-color: #5d3eff;
+    transition: all 300ms ease;
 }
 
 .personal__logo {
@@ -103,8 +103,8 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 600px;
     margin: 0 auto;
+    max-width: 600px;
     text-align: center;
 }
 
@@ -113,7 +113,7 @@ nav {
     height: 100px;
     border-radius: 50%;
     overflow: hidden;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.16);
     margin-bottom: 28px;
 }
 
@@ -121,9 +121,8 @@ nav {
     width: 100%;
 
     /* Improving my own picture */
-
-transform: scale(1.5);
-padding-top: 8px;
+    transform: scale(1.2);
+    padding: 8px;
 }
 
 .about-me__info--title {
@@ -136,15 +135,14 @@ padding-top: 8px;
 }
 
 .about-me__link {
-    font-size: 20px;
+    font-size: 24px;
     color: #242424;
     text-decoration: none;
     padding: 0 16px;
 }
 
-.about-me__img--container {
+.about-me__image--container {
     flex: 1;
     display: flex;
     align-items: center;
 }
-    
